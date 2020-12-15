@@ -1,4 +1,4 @@
-package com.igor.learning;
+package java.learning.com.martynenkoigor.javacore.chapter01;
 
 public class Example {
     public static void main(String[] args) {
