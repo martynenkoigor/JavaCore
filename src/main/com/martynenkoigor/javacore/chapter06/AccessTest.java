@@ -9,6 +9,6 @@ public class AccessTest {
         ob.setC(100);
 
         System.out.println("a, b, и с: " + ob.a + " " + ob.b +
-        " " + ob.getC());
+                " " + ob.getC());
     }
 }
