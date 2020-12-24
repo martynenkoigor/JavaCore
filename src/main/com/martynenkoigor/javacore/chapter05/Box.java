@@ -4,17 +4,28 @@ public class Box {
     double width;
     double height;
     double depth;
-
-    Box(double w, double h, double d) {
+//конструкторы
+    public Box(double w, double h, double d) {
         width = w;
         height = h;
         depth = d;
     }
 
-    double volume() {
-        return width * height * depth;
+    public Box() {
+        width = -1;
+        height = -1;
+        depth = -1;
     }
 
+    public Box(double len) {
+        width = height = depth = len;
+    }
+
+//return
+    public double volume() {
+        return width * height * depth;
+    }
+//no return
     void setDim(double w, double h, double d) {
         width = w;
         height = h;
