@@ -2,7 +2,7 @@ package com.martynenkoigor.javacore.chapter06;
 
 import com.martynenkoigor.javacore.chapter05.Box;
 
-import java.sql.SQLOutput;
+
 
 public class OverloadCons2 {
     public static void main(String[] args) {
