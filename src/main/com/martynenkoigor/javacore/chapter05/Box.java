@@ -21,6 +21,12 @@ public class Box {
         width = height = depth = len;
     }
 
+    public Box(Box ob) {
+        width = ob.width;
+        height = ob.height;
+        depth = ob.depth;
+    }
+
 //return
     public double volume() {
         return width * height * depth;
