@@ -16,7 +16,7 @@ public class HandleError {
                 System.out.println("Дeлeниe на нуль.");
                 a = 0;
             }
-            System.out.println("a = " + a);
+            System.out.println("a: " + a);
         }
     }
 }
