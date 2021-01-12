@@ -1,4 +1,4 @@
-package com.martynenkoigor.javacore;
+package com.martynenkoigor.javacore.chapter10;
 
 public class CurrentThreadDemo {
     public static void main(String[] args) {
