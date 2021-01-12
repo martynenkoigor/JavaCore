@@ -1,5 +1,8 @@
 package com.martynenkoigor.javacore.chapter11;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import org.w3c.dom.ls.LSOutput;
+
 public enum Apple {
     Jonathan, GoldenDel, RedDel, Winesap, Cortland
 }
