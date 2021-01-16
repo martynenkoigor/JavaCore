@@ -17,7 +17,7 @@ public class NativeDemo {
         public native void test() ;
 
         static {
-            System.out.println("Native Demo");
+            System.loadLibrary("Native Demo");
         }
 
 }
