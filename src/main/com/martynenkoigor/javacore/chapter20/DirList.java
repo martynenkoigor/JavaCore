@@ -13,9 +13,9 @@ public class DirList {
             for (int i = 0; i < s.length; i++) {
                 File f = new File(dirname + "/" + s[i]);
                 if (f.isDirectory()) {
-                    System.out.println(s[i] + "is catalog");
+                    System.out.println(s[i] + " is catalog");
                 } else {
-                    System.out.println(s[i] + "is file");
+                    System.out.println(s[i] + " is file");
                 }
             }
         } else {
