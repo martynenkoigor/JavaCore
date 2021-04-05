@@ -2,11 +2,13 @@ package com.martynenkoigor.javacore.chapter29;
 
 import java.util.ArrayList;
 import java.util.Spliterator;
+import java.util.TreeMap;
 import java.util.stream.Stream;
 
 public class StreamDemo5 {
     public static void main(String[] args) {
         ArrayList<String> myList = new ArrayList<>();
+
 
         myList.add("Alpha");
         myList.add("Betta");
